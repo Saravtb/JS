@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to bottom, #023e8c, #ffffff); /* Degradê do fundo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centralizando verticalmente */
+    align-items: center; /* Centralizando horizontalmente */
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left; /* Alinhando o texto à esquerda */
+    position: absolute; /* Fazendo o título sair do fluxo normal */
+    top: 20px; /* Definindo a distância do topo */
+    left: 20px; /* Definindo a distância da esquerda */
+    margin: 0; /* Removendo a margem padrão */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px; /* Maior espaço entre as seções */
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo escuro para cada seção */
+    padding: 15px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px; /* Largura máxima das seções */
+    margin-top: 10px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+input[type="text"], input[type="number"], button {
+    padding: 8px;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: rgb(216, 216, 89);
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #bfcf98;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;
+}
