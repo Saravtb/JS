@@ -13,11 +13,11 @@ h1 {
     color: white;
     font-weight: bold;
     font-size: 1.5em;
-    text-align: left; /* Alinhando o texto à esquerda */
-    position: absolute; /* Fazendo o título sair do fluxo normal */
-    top: 20px; /* Definindo a distância do topo */
-    left: 20px; /* Definindo a distância da esquerda */
-    margin: 0; /* Removendo a margem padrão */
+    text-align: left; 
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    margin: 0; 
 }
 
 .content {
@@ -25,16 +25,16 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 20px; /* Maior espaço entre as seções */
+    gap: 20px; 
     padding: 20px;
 }
 
 section {
-    background-color: rgba(0, 0, 0, 0.4); /* Fundo escuro para cada seção */
+    background-color: rgba(0, 0, 0, 0.4); 
     padding: 15px;
     border-radius: 12px;
     width: 100%;
-    max-width: 400px; /* Largura máxima das seções */
+    max-width: 400px; 
     margin-top: 10px;
 }
 
@@ -73,3 +73,22 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f44336; 
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    z-index: 1000; 
+    display: none; 
+    width: auto;
+    max-width: 80%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

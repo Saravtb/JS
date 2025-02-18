@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <h1>Código em JavaScript</h1>
 
-    <!-- Parte 1: Formulário para nome -->
+   
     <section>
         <div class="content">
             <label for="name">Digite o seu nome:</label>
@@ -17,7 +17,7 @@
         </div>
     </section>
 
-    <!-- Parte 2: Formulário para os preços dos produtos -->
+    
     <section>
         <div class="content">
             <label for="product1">Produto 1 (Preço):</label>
@@ -33,16 +33,22 @@
         </div>
     </section>
 
-    <!-- Parte 3: Exibição do total -->
+    
     <section>
         <div class="content">
             <p id="totalAmount" style="color: white; font-size: 1.5em;">Total: R$ 0.00</p>
         </div>
     </section>
 
-    <!-- Rodapé -->
+   
+    <div id="notification" class="notification" style="display: none;">
+    Por favor, adicione ao menos um produto ao carrinho!
+    </div>
+
+
+   
     <footer id="footer">Seu nome aparecerá aqui...</footer>
 
-    <script src="script.js"></script> <!-- Link para o JavaScript -->
+    <script src="script.js"></script> 
 </body>
 </html>
