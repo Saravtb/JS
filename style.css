@@ -67,7 +67,7 @@ button:hover {
 footer {
     position: fixed;
     bottom: 20px;
-    color: yellow;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1.3em;
     width: 100%;
